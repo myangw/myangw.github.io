@@ -1,0 +1,89 @@
+baseURL = 'https://myangw.github.io/'
+title = 'Myang Tech Blog'
+theme = 'PaperMod'
+
+# Default language (English)
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    contentDir = 'content/en'
+
+    [languages.en.params]
+      description = 'Tech blog about software engineering, backend development, and more'
+
+    [[languages.en.menu.main]]
+      name = 'Posts'
+      url = '/en/posts/'
+      weight = 1
+
+    [[languages.en.menu.main]]
+      name = 'Tags'
+      url = '/en/tags/'
+      weight = 2
+
+    [[languages.en.menu.main]]
+      name = '한국어'
+      url = '/ko/'
+      weight = 3
+
+  [languages.ko]
+    languageName = '한국어'
+    weight = 2
+    contentDir = 'content/ko'
+
+    [languages.ko.params]
+      description = '소프트웨어 엔지니어링, 백엔드 개발 등에 대한 기술 블로그'
+
+    [[languages.ko.menu.main]]
+      name = '포스트'
+      url = '/ko/posts/'
+      weight = 1
+
+    [[languages.ko.menu.main]]
+      name = '태그'
+      url = '/ko/tags/'
+      weight = 2
+
+    [[languages.ko.menu.main]]
+      name = 'English'
+      url = '/en/'
+      weight = 3
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = true
+
+  [params.homeInfoParams]
+    Title = "Myang's Tech Blog"
+    Content = "Welcome to my tech blog! I write about software engineering, backend development, databases, and more."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'monokai'
+    tabWidth = 4

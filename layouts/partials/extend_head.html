@@ -1,0 +1,22 @@
+<script>
+  // Auto-redirect to user's preferred language on homepage only
+  (function() {
+    const currentPath = window.location.pathname;
+    const isHomepage = currentPath === '/' || currentPath === '';
+
+    if (isHomepage && !sessionStorage.getItem('languageRedirected')) {
+      const browserLang = navigator.language || navigator.userLanguage;
+      const isKorean = browserLang.startsWith('ko');
+
+      // Set session flag to prevent redirect loop
+      sessionStorage.setItem('languageRedirected', 'true');
+
+      // Redirect based on browser language
+      if (isKorean) {
+        window.location.href = '/ko/';
+      } else {
+        window.location.href = '/en/';
+      }
+    }
+  })();
+</script>
