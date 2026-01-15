@@ -16,14 +16,19 @@ defaultContentLanguageInSubdir = true
       description = 'Tech blog about software engineering, backend development, and more'
 
     [[languages.en.menu.main]]
+      name = 'About'
+      url = '/en/about/'
+      weight = 1
+
+    [[languages.en.menu.main]]
       name = 'Posts'
       url = '/en/posts/'
-      weight = 1
+      weight = 2
 
     [[languages.en.menu.main]]
       name = 'Tags'
       url = '/en/tags/'
-      weight = 2
+      weight = 3
 
   [languages.ko]
     languageName = '한국어'
@@ -34,23 +39,28 @@ defaultContentLanguageInSubdir = true
       description = '소프트웨어 엔지니어링, 백엔드 개발 등에 대한 기술 블로그'
 
     [[languages.ko.menu.main]]
+      name = 'About'
+      url = '/ko/about/'
+      weight = 1
+
+    [[languages.ko.menu.main]]
       name = '포스트'
       url = '/ko/posts/'
-      weight = 1
+      weight = 2
 
     [[languages.ko.menu.main]]
       name = '태그'
       url = '/ko/tags/'
-      weight = 2
+      weight = 3
 
 [params]
-  ShowReadingTime = true
-  ShowShareButtons = true
+  ShowReadingTime = false
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false 
   UseHugoToc = true
   disableSpecial1stPost = true
   disableScrollToTop = false
