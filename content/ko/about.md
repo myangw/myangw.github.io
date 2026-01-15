@@ -8,10 +8,8 @@ ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false
 ShowBreadCrumbs: false
+hidemeta: true
 ---
-
-# About
-
 
 ## Get in Touch
 - GitHub: [github.com/myangw](https://github.com/myangw)

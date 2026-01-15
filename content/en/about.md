@@ -8,9 +8,8 @@ ShowReadingTime: false
 ShowShareButtons: false
 ShowPostNavLinks: false
 ShowBreadCrumbs: false
+hidemeta: true
 ---
-
-# About
 
 I’m Mihyang (Myang or Mia, if that’s easier). I’m a backend engineer with experience building e-commerce and platform products.
 
