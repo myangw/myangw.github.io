@@ -52,13 +52,13 @@ I thought recruiting was an experience you'd have only after becoming a senior d
     - I've also failed like this - I prepared too hard for self-introduction and was overwhelmed by the interviewers for no reason. But being nervous like that seems to ruin everything. From the interviewer's perspective, we try to help them relax as much as possible to see their true value, but there's nothing more we can do beyond that.
 - We look at 'Can they do well when they come to our team' < 'Are they an excellent developer'.
     - When job hunting, I think I spent too much time only trying to appeal that I'm an 'excellent person'. But when recruiting, I kept thinking 'Will that person be okay when they come to our team, how will they communicate in problem situations, can they have a good influence on the development team' etc., and if I couldn't judge, I asked more questions.
-- When asking basic things, looking at how they explain shows the depth of that person to some extent. So even for experienced people, we sometimes ask basic things... I need to become someone who can explain well ㅠㅠ
+- When asking basic things, looking at how they explain shows the depth of that person to some extent. So even for experienced people, we sometimes ask basic things... I need to become someone who can explain well.
 - Talk specifically about problem-solving experiences
     - To form context with the interviewer about the problem and solution, you provide various information. The situation at the time, why this work had to be done, why the technology was chosen, results, and if results weren't good, lessons learned. In that process, if something isn't understood, additional questions are asked. First succeed in making the interviewer understand, then you can discuss.
 
 —
 
-## If I Become a Recruiting Manager Next Time
+## Memo for Future Recruitment Responsibility
 
 - Lesson learned 1: Recruiting is also a place to brand the company and team.
 - Lesson learned 2: Must clarify what we expect from the person being recruited.
