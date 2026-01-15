@@ -3,6 +3,7 @@ title = 'Myanglog'
 theme = 'PaperMod'
 enableRobotsTXT = true
 enableGitInfo = true
+enableEmoji = true
 
 # Google Analytics
 googleAnalytics = 'G-WR4FNTG1CT'  # Replace with your GA4 measurement ID
