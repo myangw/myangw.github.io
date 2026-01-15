@@ -81,8 +81,6 @@ defaultContentLanguageInSubdir = true
   author = 'Mihyang Gu'
   keywords = ['backend', 'software engineering', 'java', 'kotlin', 'spring', 'architecture']
 
-  [params.analytics]
-    google = 'G-WR4FNTG1CT'  # Replace with your GA4 measurement ID
 
 [markup]
   [markup.goldmark]
